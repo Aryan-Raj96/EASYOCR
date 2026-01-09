@@ -94,10 +94,10 @@ show("4. OCR Output", output_img)
 # FINAL OUTPUT
 print("\n🔹 RAW OCR WORDS (Input from Image):")
 print(all_words)
-print("👉 Total RAW words detected:", len(all_words))
+print("Total RAW words detected:", len(all_words))
 
 print("\n🔹 CLEANED WORDS (After India Dictionary Processing):")
 print(valid_words)
-print("👉 Total CLEANED words:", len(valid_words))
+print(" Total CLEANED words:", len(valid_words))
 
 print("\n🔹 TOTAL WORD BOXES (OCR detections):", len(results))
